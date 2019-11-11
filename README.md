@@ -9,23 +9,23 @@ c. Datu datne(s), šajā gadījumā vardi.txt. Datnes saturam var būt dažādi 
 d. Datnēm jābūt strukturētām pa mapēm, konkrēti laikam(?) html datnei jābūt apakšmapē static. Datu datni vardi.txt arī noliku static mapē, bet nezinu, vai tā ir pareizākā stratēģija.
 2. Ja datorā vēl nav instalēt Flask, tad to instalē no komandrindas šādi:
 Windows:
-cmd
-> py -m pip install Flask
+  cmd
+  > py -m pip install Flask
 Linux:
-bash
-$ pip install Flask
+  bash
+  $ pip install Flask
 3. Pasaka Flask(am), kura Python programma būs jālaiž kā serveris. Šajā gadījumā tā ir programma test.py. Teorētiski tur vajadzētu varēt norādīt ceļu līdz datnes test.py atrašanās vietai, praktiski man neizdevās, tāpēc pirms šīs komandas izpildes es konsolē vispirms ar cd (change directory) aizgāju uz mapi, kurā stāv test.py datne.
 Windows
-cmd
-> set FLASK_APP=test.py
+  cmd
+  > set FLASK_APP=test.py
 Linux
-bash
-$ export FLASK_APP=test.py
+  bash
+  $ export FLASK_APP=test.py
 4. Palaiž Flask. Arī to es darīju, atrodoties iepriekš minētajā mapē. Tajā vēl jāatrodas arī iepriekš minētajai static mapei.
 Windows
-cmd
-> py -m flask run
+  cmd
+  > py -m flask run
 Linux
-bash
-$ python -m flask run
+  bash
+  $ python -m flask run
 5. Ja viss notiek veiksmīgi, tad konsolē parādās uzraksts, ka serveris palaists adresē http://127.0.0.1:5000 un ka to var apturēt, spiežot CTL-C. Atverot šo adresi pārlūkprogrammā, tajā sāks darbu test.html kods.

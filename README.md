@@ -1,5 +1,5 @@
 # Servertest
-Instrukcija, kā palaist Python Flask serveri savā datorā.
+Instrukcija un piemēri, kā palaist Python Flask serveri savā datorā.
 Noder, lai izmēģinātu servera darbību savā datorā, pirms to izliek publiskai lietošanai.
 Balstīta uz Pāvila Jurjāna skaidrojumiem.
 1. Sagatavojam nepieciešamās datnes:

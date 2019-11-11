@@ -17,7 +17,7 @@ def rez():
     # testēšanas nolūkā izdrukā līdzi iedoto vārdu, to varēs redzēt konsolē
     print(vards)
     # atver lasīšanai vārdu datni
-    f=open('vardi.txt','r')
+    f=open('static/vardi.txt','r')
     # json objekta metode visu no faila ielasa mainīgajā saraksts, strukturētu json formātā
     saraksts=json.load(f)
     f.close()
@@ -25,7 +25,7 @@ def rez():
     jauns={"vards":vards,"punkti":int(punkti)}
     saraksts.append(jauns)
     # atver rakstīšanai vārdu datni 
-    f=open('vardi.txt','w')
+    f=open('static/vardi.txt','w')
     # json objekts ieraksta datnē vārdu sarakstu ar jauno vārdu 
     json.dump(saraksts,f)
     f.close()

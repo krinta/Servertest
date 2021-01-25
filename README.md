@@ -11,7 +11,7 @@ d. Datnēm jābūt strukturētām pa mapēm, konkrēti laikam(?) html datnei jā
 
 Windows:
   cmd
-  > py -m pip install 
+  > py -m pip install Flask
   
 Linux:
   bash
